@@ -19,8 +19,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/homeAlmacen', 'HomeController@index')->name('home');
 
 Route::get('/inicio', function () {
-    return view('home');
+    return view('homeAlmacen');
+});
+
+Route::get('/compras', function () {
+    return view('carroCompras');
 });

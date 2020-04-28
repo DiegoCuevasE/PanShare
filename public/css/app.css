@@ -10882,3 +10882,7 @@ a.text-dark:focus {
   }
 }
 
+.pie{
+  background-color: rgba(0, 0, 0, 0);
+}
+
